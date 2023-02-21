@@ -1,1 +1,66 @@
 /* Denna fil skall innehålla din CSS kod */
+header {
+    background-color: aquamarine;
+    height: 90px;
+    width: 100%;
+    grid-area: hd;
+}
+
+#wrapper {
+    display: grid;
+    background-color: rgb(250, 199, 245);
+    height: 640px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    grid-template-areas:
+    'hd hd hd' 
+    'mn mn mn';
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 2000px;
+}
+
+main {
+    display: flex;
+    grid-area: mn;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#sec1 {
+    grid-area: sec1;
+    height: 500px;
+    width: 33%;
+    background-color: rgb(212, 240, 204);
+}
+
+#sec2 {
+    grid-area: sec2;
+    height: 500px;
+    width: 33%;
+    background-color: rgb(161, 161, 200);
+}
+
+#sec3 {
+    grid-area: sec3;
+    height: 500px;
+    width: 33%;
+    background-color: rgb(255, 177, 188);
+}
+
+#sec4 {
+    height: 200px;
+    width: 100px;
+    background-color: rgb(194, 255, 248);
+}
+
+#sec5 {
+    height: 400px;
+    width: 200px;
+    background-color: rgb(194, 255, 248);
+}
