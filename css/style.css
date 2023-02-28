@@ -1,27 +1,30 @@
 /* Denna fil skall innehålla din CSS kod */
 header {
-    background-color: aquamarine;
-    height: 90px;
+    background-color: #F34F28;
+    height: 100px;
     width: 100%;
     grid-area: hd;
+    display: flex;
+    justify-content: space-around;
 }
 
 #wrapper {
     display: grid;
-    background-color: rgb(250, 199, 245);
-    height: 640px;
+    background-color: #F7F6F2;
+    height: 1800px;
     width: 100%;
     padding: 0;
     margin: 0;
     grid-template-areas:
     'hd hd hd' 
+    's6 s6 s6'
     'mn mn mn';
 }
 
 body {
     padding: 0;
     margin: 0;
-    height: 2000px;
+    height: 1800px;
 }
 
 main {
@@ -36,31 +39,87 @@ main {
     grid-area: sec1;
     height: 500px;
     width: 33%;
-    background-color: rgb(212, 240, 204);
+    background-color: #F1EEE9;
+    background-size: cover;
+    border: solid 7px;
+    border-color: #F7F6F2;
+    background-image: url(../img/coffee.jpg)
 }
 
 #sec2 {
     grid-area: sec2;
     height: 500px;
     width: 33%;
-    background-color: rgb(161, 161, 200);
+    background-color: #F1EEE9;
+    border: solid 7px;
+    border-color: #F7F6F2;
+    background-image: url(../img/cafe.jpg);
+    background-size: cover ;
 }
 
 #sec3 {
     grid-area: sec3;
     height: 500px;
     width: 33%;
-    background-color: rgb(255, 177, 188);
+    background-color: #F1EEE9;
+    border: solid 7px;
+    border-color: #F7F6F2;
+    background-image: url(../img/teabag.jpg);
+    background-size: cover;
 }
 
 #sec4 {
-    height: 200px;
-    width: 100px;
-    background-color: rgb(194, 255, 248);
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    background-image: url(../img/socials2.jpg);
+    background-size: cover;
+    border-radius: 100px;
 }
 
 #sec5 {
-    height: 400px;
-    width: 200px;
-    background-color: rgb(194, 255, 248);
+    height: 500px;
+    width: 400px;
+    background-image: url(../img/mail2.jpg);
+    background-size: cover;
+    margin: auto;
+    border-radius: 100px;
+}
+
+#sec6 {
+    width: 100%;
+    grid-area: s6;
+    height: 500px;
+    margin: auto;
+    background-image: url(../img/bannner_webb.jpg);
+    background-size: contain;
+}
+
+p {
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F34F28;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.hover{
+    transition-duration: 0.5s;
+}
+
+.hover:hover{
+    transform: scale(1.1);
+    color: #BECEAB;
+}
+
+#hd {
+    color: #F1EEE9;
+    font-size: 2rem;
 }
