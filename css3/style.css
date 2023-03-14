@@ -7,6 +7,19 @@ header {
     justify-content: space-around;
 }
 
+#wrapper {
+    display: grid;
+    grid-template-areas: 
+    's6 s6'
+    's2 s3'
+    's4 s5';
+    background-color: #F7F6F2;
+    height: 752px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 p {
     font-size: 3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -37,21 +50,48 @@ a {
 }
 
 body {
+    padding: 0;
     margin: 0;
+    height: 1100px;
 }
 
 #sec1 {
     width: 100%;
     height: 200px;
-    background-color: rgb(180, 243, 243);
+    background-color: rgb(186, 207, 166);
+    margin: 0;
+    padding: 0;
 }
 
 #sec2 {
-    height: 350px;
-    width: 350px;
+    display: grid;
+    grid-area: s2;
+    height: 700px;
+    width: 700px;
+    background-image: url(../img/logo.jpg);
+    background-size: contain;
 }
 
 #sec3 {
-    height: 350px;
-    width: 350px;
+    display: grid;
+    display: flex;
+    grid-area: s3;
+    height: 400px;
+    width: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    justify-content: center;
+    color: #F34F28;
+}
+
+
+#sec6 {
+    height: 50px;
+    width: 100%;
+    grid-area: s6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
 }

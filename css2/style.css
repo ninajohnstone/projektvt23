@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(195, 195, 239);
+    background-color: rgb(255, 255, 255);
 }
 
 #wrapper {
@@ -55,125 +55,136 @@ a {
 #sec0 {
     width: 100%;
     height: 300px;
+    background-color: rgb(186, 207, 166);
+    grid-area: s0;
+    display: grid;
+}
+
+ul {
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 
 #sec1 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s1;
 }
 
 #sec2 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s2;
 }
 
 #sec3 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s3;
 }
 
 #sec4 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s4;
 }
 
 #sec5 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s5;
 }
 
 #sec6 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s6;
 }
 
 #sec7 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s7;
 }
 
 #sec8 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s8;
 }
 
 #sec9 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s9;
 }
 
 #sec10 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s10;
 }
 
 #sec11 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s11;
 }
 
 #sec12 {
     height: 500px;
     width: 350px;
-    background-color: rgb(254, 193, 252);
+    background-color: #F34F28;
     padding: 5px;
     display: grid;
-    border: solid rgb(195, 195, 239) 5px;
+    border: solid rgb(255, 255, 255) 5px;
     grid-area: s12;
 }
 
