@@ -1,17 +1,3 @@
-body {
-    margin: 0;
-    background-color: rgb(255, 255, 255);
-}
-
-#wrapper {
-    display: grid;
-    grid-template-areas: 
-    'hd hd hd'
-    's0 s0 s0'
-    's1 s2 s3'
-    's4 s5 s6';
-}
-
 header {
     background-color: #F34F28;
     height: 100px;
@@ -45,19 +31,6 @@ a {
     color: #BECEAB;
 }
 
-#hd {
-    color: #F1EEE9;
-    font-size: 2rem;
-}
-
-#sec0 {
-    width: 100%;
-    height: 300px;
-    background-color: rgb(186, 207, 166);
-    grid-area: s0;
-    display: grid;
-}
-
 ul {
     font-size: 5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -66,9 +39,37 @@ ul {
     justify-content: center;
 }
 
+#hd {
+    color: #F1EEE9;
+    font-size: 2rem;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#wrapper {
+    display: grid;
+    grid-template-areas: 
+    'hd hd hd hd'
+    's0 s0 s1 s2'
+    's3 s4 s5 s6';
+    margin: 0;
+    padding: 0;
+}
+
+#sec0 {
+    width: 50%;
+    height: 500px;
+    background-color: rgb(186, 207, 166);
+    grid-area: s0;
+    display: grid;
+}
+
 #sec1 {
     height: 500px;
-    width: 350px;
+    width: 25%;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
@@ -78,7 +79,7 @@ ul {
 
 #sec2 {
     height: 500px;
-    width: 350px;
+    width: 25%;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
@@ -88,7 +89,7 @@ ul {
 
 #sec3 {
     height: 500px;
-    width: 350px;
+    width: 25%;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
@@ -98,7 +99,7 @@ ul {
 
 #sec4 {
     height: 500px;
-    width: 350px;
+    width: 25%;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
@@ -108,7 +109,7 @@ ul {
 
 #sec5 {
     height: 500px;
-    width: 350px;
+    width: 25%;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
@@ -118,69 +119,10 @@ ul {
 
 #sec6 {
     height: 500px;
-    width: 350px;
+    width: 25%;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s6;
 }
-
-@media screen and (max-width:600px) {
-
-    body {
-        width: 100vw;
-        background-color: rgb(55, 159, 224);
-    }
-
-    header {
-        position: relative;
-        width: 100vw;
-    }
-
-    #wrapper {
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-    }
-
-    main {
-        width: 100vw;
-    }
-
-    #sec0 {
-        width: 100vw;
-    }
-
-    #sec1 {
-        width: 50vw;
-        height: 300px;
-    }
-
-    #sec2 {
-        width: 50vw;
-        height: 300px;
-    }
-
-    #sec3 {
-        width: 50vw;
-        height: 300px;
-    }
-
-    #sec4 {
-        width: 50vw;
-        height: 300px;
-    }
-
-    #sec5 {
-        width: 50vw;
-        height: 300px;
-    }
-
-    #sec6 {
-        width: 50vw;
-        height: 300px;
-    }
-}
-
-
