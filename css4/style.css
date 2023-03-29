@@ -46,6 +46,7 @@ ul {
 
 body {
     margin: 0;
+    padding: 0;
     background-color: rgb(255, 255, 255);
 }
 
@@ -60,7 +61,7 @@ body {
 }
 
 #sec0 {
-    width: 50%;
+    width: 50vw;
     height: 500px;
     background-color: rgb(186, 207, 166);
     grid-area: s0;
@@ -69,37 +70,40 @@ body {
 
 #sec1 {
     height: 500px;
-    width: 25%;
+    width: 25vw;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s1;
+    background-image: url(../img/GRÖNTTE.jpg);
 }
 
 #sec2 {
     height: 500px;
-    width: 25%;
+    width: 25vw;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s2;
+    background-image: url(../img/apelsinte.jpg);
 }
 
 #sec3 {
     height: 500px;
-    width: 25%;
+    width: 25vw;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s3;
+    background-image: url(../img/mintte.jpg);
 }
 
 #sec4 {
     height: 500px;
-    width: 25%;
+    width: 25vw;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
@@ -109,7 +113,7 @@ body {
 
 #sec5 {
     height: 500px;
-    width: 25%;
+    width: 25vw;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
@@ -119,10 +123,56 @@ body {
 
 #sec6 {
     height: 500px;
-    width: 25%;
+    width: 25vw;
     background-color: #EAD7E5;
     padding: 5px;
     display: grid;
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s6;
+}
+
+@media screen and (max-width:600px) {
+    
+    #sec0 {
+        width: 100vw;
+    }
+
+    #sec1 {
+        width: 50vw;
+        height: 300px;
+    }
+
+    #sec2 {
+        width: 50vw;
+        height: 300px;
+    }
+
+    #sec3 {
+        width: 50vw;
+        height: 300px;
+    }
+
+    #sec4 {
+        width: 50vw;
+        height: 300px;
+    }
+
+    #sec5 {
+        width: 50vw;
+        height: 300px;
+    }
+
+    #sec6 {
+        width: 50vw;
+        height: 300px;
+    }
+
+    #wrapper {
+        grid-template-areas:
+        'hd hd'
+        's0 s0'
+        's1 s2'
+        's3 s4'
+        's5 s6';
+    }
 }

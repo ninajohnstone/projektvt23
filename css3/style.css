@@ -95,3 +95,51 @@ ul {
     list-style-type: none;
     padding: 10px;
 }
+
+@media screen and (max-width:600px) {
+    body {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: 100vh;
+    }
+
+    #wrapper {
+        position: relative;
+        margin: 0;
+        height: 100vh;
+        padding: 0;
+        width: 100vw;
+        grid-template-areas: 
+        'hd hd hd'
+        's1 s1 s1'
+        's2 s2 s2'
+        's3 s3 s3'
+        's4 s4 s4';
+    }
+
+    header {
+        position: relative;
+        width: 100vw;
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+
+    #sec2 {
+        width: 100vw;
+        height: 350px;
+    }
+
+    #sec3 {
+        width: 100vw;
+    }
+
+    #sec4 {
+        width: 100%;
+    }
+}

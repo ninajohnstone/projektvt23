@@ -190,6 +190,15 @@ footer {
 
     #wrapper {
         width: 100%;
+        grid-template-areas: 
+        'hd hd hd'
+        's6 s6 s6'
+        'mn mn mn'
+        's1 s1 s1'
+        's2 s2 s2'
+        's3 s3 s3'
+        's4 s4 s4'
+        's5 s5 s5';
     }
 
     main {
