@@ -139,6 +139,50 @@ ul {
     background-size: contain;
 }
 
+nav {
+    justify-content: center;
+    max-height: 0;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+
+nav.active {
+    max-height: 1000px;
+    transition-duration: 3s;
+}
+
+nav ul {
+    display: block;
+    padding: 0;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#hamburger {
+    height: 1.5rem;
+    width: 2.2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+}
+
+#hamburger div {
+    border: 1px solid black;
+    margin: 0.3rem;
+}
+
+#hd {
+    color: #F1EEE9;
+    font-size: 2rem;
+}
+
 @media screen and (max-width:600px) {
 
     body {
@@ -204,6 +248,46 @@ ul {
         width: 50vw;
         height: 300px;
     }
+
+    #hamburger {
+        height: 1.5rem;
+        width: 2.2rem;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+
+    }
+
+    #hamburger div {
+        border: 1px solid black;
+        margin: 0.3rem;
+    }
+
+    nav {
+        justify-content: center;
+        max-height: 0;
+        overflow: hidden;
+        transition-duration: 1s;
+    }
+
+    nav.active {
+        max-height: 1000px;
+        transition-duration: 3s;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+    nav ul li:hover {
+        background-color: rgb(255, 255, 255);
+    }
+
 }
 
 

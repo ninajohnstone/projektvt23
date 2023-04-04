@@ -5,6 +5,7 @@ header {
     grid-area: hd;
     display: flex;
     justify-content: space-around;
+    margin: 0;
 }
 
 p {
@@ -20,6 +21,10 @@ a {
     display: flex;
     justify-content: center;
     margin: auto;
+}
+
+main {
+    margin: 0;
 }
 
 .hover{
@@ -77,6 +82,7 @@ body {
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s1;
     background-image: url(../img/GRÖNTTE.jpg);
+    background-size: contain;
 }
 
 #sec2 {
@@ -88,6 +94,7 @@ body {
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s2;
     background-image: url(../img/apelsinte.jpg);
+    background-size: contain;
 }
 
 #sec3 {
@@ -99,6 +106,7 @@ body {
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s3;
     background-image: url(../img/mintte.jpg);
+    background-size: contain;
 }
 
 #sec4 {
@@ -109,6 +117,8 @@ body {
     display: grid;
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s4;
+    background-image: url(../img/kopp.jpg);
+    background-size: contain;
 }
 
 #sec5 {
@@ -119,6 +129,8 @@ body {
     display: grid;
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s5;
+    background-image: url(../img/påse.jpg);
+    background-size: contain;
 }
 
 #sec6 {
@@ -129,6 +141,52 @@ body {
     display: grid;
     border: solid rgb(255, 255, 255) 5px;
     grid-area: s6;
+    background-image: url(../img/keps.jpg);
+    background-size: contain;
+}
+
+nav {
+    justify-content: center;
+    max-height: 0;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+
+nav.active {
+    max-height: 1000px;
+    transition-duration: 3s;
+}
+
+nav ul {
+    display: block;
+    padding: 0;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#hamburger {
+    height: 1.5rem;
+    width: 2.2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+}
+
+#hamburger div {
+    border: 1px solid black;
+    margin: 0.3rem;
+}
+
+#hd {
+    color: #F1EEE9;
+    font-size: 2rem;
 }
 
 @media screen and (max-width:600px) {
@@ -167,6 +225,20 @@ body {
         height: 300px;
     }
 
+    #hamburger {
+        height: 1.5rem;
+        width: 2.2rem;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+
+    }
+
+    #hamburger div {
+        border: 1px solid black;
+        margin: 0.3rem;
+    }
+
     #wrapper {
         grid-template-areas:
         'hd hd'
@@ -174,5 +246,30 @@ body {
         's1 s2'
         's3 s4'
         's5 s6';
+    }
+
+    nav {
+        justify-content: center;
+        max-height: 0;
+        overflow: hidden;
+        transition-duration: 1s;
+    }
+
+    nav.active {
+        max-height: 1000px;
+        transition-duration: 3s;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+    nav ul li:hover {
+        background-color: rgb(255, 255, 255);
     }
 }
